@@ -1,0 +1,19 @@
+.zonaSucursal {
+	margin: map-get($estiloSucursal, margen);
+	font-style: map-get($estiloSucursal, estiloLetra);
+	font-family: map-get($estiloSucursal, tipoLetra);
+	font-size: map-get($estiloSucursal, tamañoLetra);
+	color: map-get($estiloSucursal, colorLetra);
+	text-align: map-get($estiloSucursal, alinText);
+}
+.direcSucursal {
+	@extend .zonaSucursal;
+}
+.HorarioSucursal {
+	@extend .zonaSucursal;
+}
+.ubicacionSucursal {
+	@include flexSucursal (flex, row, wrap, space-evenly, center);
+	padding-top: 30px;
+	padding-bottom: 30px;
+}

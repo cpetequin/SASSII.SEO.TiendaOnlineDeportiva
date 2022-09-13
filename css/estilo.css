@@ -1,0 +1,241 @@
+header img {
+  max-width: 10%;
+  max-height: 10%; }
+
+.paddingDesbor {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.promocionesBancarias {
+  padding-right: 0px; }
+  .promocionesBancarias img {
+    width: 100%;
+    margin-top: 30px; }
+
+.pieNosotros, .pieInformacion, .pieCentroDeAtencion {
+  list-style: none;
+  color: white;
+  text-decoration: none; }
+
+.pieCentroDeAtencion a {
+  list-style: none;
+  color: white;
+  text-decoration: none; }
+
+.pieInformacion a {
+  list-style: none;
+  color: white;
+  text-decoration: none; }
+
+.derechosReservados {
+  color: white;
+  text-align: center; }
+
+.encabezado1, .encabezado2 {
+  font-style: Normal;
+  font-family: Arial, Times New Roman, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: mediumblue;
+  margin-bottom: 0px;
+  box-shadow: 0px 0px 10px 0px white inset; }
+
+.encabezado2 {
+  margin-bottom: 30px;
+  background-color: DimGray; }
+
+.card-body, .card-title {
+  width: 100%;
+  text-align: center;
+  font-style: Normal;
+  font-family: Arial, Times New Roman, sans-serif;
+  font-size: 0.7rem;
+  color: DimGray; }
+
+.promocionesBancarias {
+  padding-right: 0px; }
+  .promocionesBancarias img {
+    width: 100%;
+    margin-top: 30px; }
+
+.Nosotros, .valores, .FinGracias {
+  margin: 20px 30px 0px 30px;
+  width: 70%;
+  text-align: justify;
+  font-style: Normal;
+  font-family: Arial, Times New Roman, sans-serif;
+  font-size: 1rem;
+  color: DimGray; }
+
+.zonaSucursal, .direcSucursal, .HorarioSucursal {
+  margin: 5px;
+  font-style: Normal;
+  font-family: Arial, Times New Roman, sans-serif;
+  font-size: 1rem;
+  color: DimGray;
+  text-align: center; }
+
+.ubicacionSucursal {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.opcionesProducto {
+  display: flex;
+  flex-flow: column nowrap;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 25%; }
+
+.cardsProductos {
+  display: flex;
+  flex-flow: row wrap;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 75%;
+  align-content: space-around;
+  padding-bottom: 50px; }
+
+.cajaseleccione {
+  margin: 30px 30px 10px 60px;
+  font-style: Normal;
+  font-family: Arial, Times New Roman, sans-serif;
+  font-size: 1rem;
+  color: DimGray;
+  border: 1px solid DimGray;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  border-radius: 3px;
+  width: 10%; }
+
+.especificacionesProducto {
+  font-style: Normal;
+  font-family: Arial, Times New Roman, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: DimGray;
+  margin: 10px 40px 10px 30px; }
+
+.opcionlista li {
+  list-style-type: none;
+  font-style: Normal;
+  font-family: Arial, Times New Roman, sans-serif;
+  font-size: 0.8rem;
+  color: DimGray;
+  margin: 0px 10px 0px 30px; }
+
+.formaConsulta {
+  font-style: Normal;
+  font-family: Arial, Times New Roman, sans-serif;
+  font-size: 1rem;
+  color: DimGray;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  width: 75%; }
+
+.datosContacto div {
+  font-style: Normal;
+  font-family: Arial, Times New Roman, sans-serif;
+  font-size: 1.5rem;
+  color: DimGray;
+  margin-left: 30px;
+  padding-bottom: 10px; }
+
+.datosContacto input {
+  font-style: Normal;
+  font-family: Arial, Times New Roman, sans-serif;
+  font-size: 0.6rem;
+  color: DimGray;
+  border: 1px solid DimGray;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  border-radius: 3px;
+  width: auto; }
+
+.datosContacto label {
+  font-style: Normal;
+  font-family: Arial, Times New Roman, sans-serif;
+  font-size: 1rem;
+  color: DimGray;
+  margin-left: 30px; }
+
+.datosContacto textarea {
+  margin-left: 30px;
+  margin-bottom: 30px; }
+
+.pViaMail {
+  font-style: Normal;
+  font-family: Arial, Times New Roman, sans-serif;
+  font-size: 1.5rem;
+  color: DimGray;
+  margin-top: 30px; }
+
+select {
+  font-style: Normal;
+  font-family: Arial, Times New Roman, sans-serif;
+  font-size: 0.6rem;
+  color: DimGray;
+  border: 1px solid DimGray;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  border-radius: 3px;
+  width: auto; }
+
+button {
+  margin-left: 30px;
+  margin-bottom: 30px; }
+
+input:focus {
+  font-size: 1rem; }
+
+@media only screen and (max-width: 768px) {
+  body .cardProducto3 {
+    display: none; }
+  body .cardProducto4 {
+    display: none; }
+  body .cardProducto7 {
+    display: none; }
+  body .cardProducto8 {
+    display: none; }
+  body footer li {
+    display: none; }
+  body .busqueda {
+    display: none; }
+  body .navbar-brand {
+    width: 50%; }
+  body .pieCentroDeAtencion {
+    padding-left: 45px; }
+  body .derechosReservados {
+    text-align: left;
+    padding-left: 45px;
+    padding-top: 35px;
+    font-weight: bold; }
+  body .cardProducto1 {
+    width: 50%; }
+  body .cardProducto2 {
+    width: 50%; }
+  body .rrss {
+    padding-left: 45px;
+    align-items: flex-start; }
+  body .datosContacto label {
+    margin-left: 20px; }
+  body button {
+    margin-left: 20px; }
+  body .abastoSucursal {
+    padding-bottom: 30px; }
+  body .opcionesProducto {
+    display: none; }
+  body .cardsProductos {
+    width: 100%; }
+  body .cajaseleccione {
+    width: auto; } }

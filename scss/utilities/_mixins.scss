@@ -1,0 +1,44 @@
+@mixin Ulpie {
+	list-style: none;
+	color: $color_1;
+	text-decoration: none;
+}
+@mixin encabezadoH ($estiloLetra, $tipoLetra, $grosorLetra, $tamañoLetra, $colorLetra, $alinText, $mayusLetra, $fondoEncabezado, $margbajo, $sombra) {
+	font-style: $estiloLetra;
+	font-family: $tipoLetra;
+	font-weight: $grosorLetra;
+	font-size: $tamañoLetra;
+	color: $colorLetra;
+	text-align: $alinText;
+	text-transform: $mayusLetra;
+	background-color: $fondoEncabezado;
+	margin-bottom: $margbajo;
+	box-shadow: $sombra;
+}
+@mixin cardBodyTitle ($anchoCard, $alinText, $estiloLetra, $tipoLetra, $tamañoLetra, $colorLetra) {
+	width: $anchoCard;
+	text-align: $alinText;
+	font-style: $estiloLetra;
+	font-family: $tipoLetra;
+	font-size: $tamañoLetra;
+	color: $colorLetra;
+}
+@mixin flexSucursal ($dis, $direction, $Corte, $just, $alin) {
+	display: $dis;
+	flex-flow: $direction $Corte;
+	justify-content: $just;
+	text-align: $alin;
+}
+@mixin flexProducto ($dis, $direction, $Corte, $just, $ancho) {
+	display: $dis;
+	flex-flow: $direction $Corte;
+	flex-wrap: $Corte;
+	justify-content: $just;
+	width: $ancho;
+}
+@mixin contacto ($estiloLetra, $tipoLetra, $tamañoLetra, $colorLetra) {
+	font-style: $estiloLetra;
+	font-family: $tipoLetra;
+	font-size: $tamañoLetra;
+	color: $colorLetra;
+}

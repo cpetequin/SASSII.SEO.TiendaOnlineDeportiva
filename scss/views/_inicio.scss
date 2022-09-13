@@ -1,0 +1,18 @@
+.encabezado1 {
+	@include encabezadoH (Normal, $font-family_1, bold, 1.5rem, $color_1, center, uppercase, $background-color_1, 0px, 0px 0px 10px 0px white inset);
+}
+.encabezado2 {
+	@extend .encabezado1;
+	margin-bottom: 30px;
+	background-color: DimGray;
+}
+.card-body, .card-title {
+	@include cardBodyTitle (100%, center, Normal, $font-family_1, 0.7rem, $color_2)
+}
+.promocionesBancarias {
+	img {
+		width: 100%;
+		margin-top: 30px;
+	}
+	padding-right: 0px;
+}

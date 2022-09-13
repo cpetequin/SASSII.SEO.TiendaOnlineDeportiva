@@ -1,0 +1,52 @@
+.formaConsulta {
+	@include contacto (Normal, $font-family_1, 1rem, $color_2)
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	width: 75%;
+}
+.datosContacto {
+	div {
+		@include contacto (Normal, $font-family_1, 1.5rem, $color_2)
+		margin-left: 30px;
+		padding-bottom: 10px;
+	}
+	input {
+		@include contacto (Normal, $font-family_1, 0.6rem, $color_2)
+		border: 1px solid DimGray;
+		padding-bottom: 4px;
+		padding-top: 4px;
+		border-radius: 3px;
+		width: auto;
+	}
+	label {
+		@include contacto (Normal, $font-family_1, 1rem, $color_2)
+		margin-left: 30px;
+	}
+	textarea {
+		margin-left: 30px;
+		margin-bottom: 30px;
+	}
+}
+.pViaMail {
+	@include contacto (Normal, $font-family_1, 1.5rem, $color_2)
+	margin-top: 30px;
+}
+select {
+	@include contacto (Normal, $font-family_1, 0.6rem, $color_2)
+	border: 1px solid DimGray;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	border-radius: 3px;
+	width: auto;
+}
+button {
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+input {
+	&:focus {
+		font-size: 1rem;
+	}
+}

@@ -1,0 +1,22 @@
+.promocionesBancarias{
+	img {
+		width: 100%;
+		margin-top: 30px;
+	}
+	padding-right: 0px;
+}
+.pieNosotros, .pieInformacion, .pieCentroDeAtencion{
+	@include Ulpie;
+}
+.pieCentroDeAtencion
+	a {
+	@include Ulpie;
+}
+.pieInformacion
+	a {
+	@include Ulpie;
+}
+.derechosReservados {
+	color: $color_1;
+	text-align: center;
+}
